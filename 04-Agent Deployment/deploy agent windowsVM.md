@@ -2,7 +2,7 @@
 
 ## Overview
 
-One of Wazuh's most powerful features is its **agent-based monitoring** system. A Wazuh agent is a lightweight piece of software you install on any device — Windows, Linux, or macOS — that continuously collects security data and forwards it to your Wazuh SIEM server in real time.
+One of Wazuh's most powerful features is its **agent-based monitoring** system. A Wazuh agent is a lightweight piece of software you install on any device — WindowsVM, Linux, or macOS — that continuously collects security data and forwards it to your Wazuh SIEM server in real time.
 
 This guide walks you through the complete process of deploying a Wazuh agent on a **Windows machine** and enrolling it into your Wazuh dashboard.
 
@@ -320,12 +320,12 @@ NET START Wazuh
 
 ## What's Next
 
-Now that your Windows machine is enrolled and reporting to Wazuh, explore these sections to get the most out of your setup:
+Now that your WindowsVM machine is enrolled and reporting to Wazuh, explore these sections to get the most out of your setup:
 
-- **[05 — Detection & Alerts](../05-Detection-and-Alerts/understanding-alerts.md)** — Learn how to read and interpret the security events now flowing from your Windows machine
-- **[07 — MITRE ATT&CK](../07-MITRE-ATTCK/mitre-integration.md)** — Understand the ATT&CK tactics already appearing in your agent dashboard
-- **[06 — Custom Rules](../06-Custom-Rules/writing-custom-rules.md)** — Write your own detection rules to catch specific activity on this machine
+- **[05 — Detection & Alerts](https://github.com/yogesh1025/wazuh-siem-complete-guide/tree/main/05-Detection%20adn%20Alerts)** — Learn how to read and interpret the security events now flowing from your Windows machine
+- **[06 — Custom Rules](https://github.com/yogesh1025/wazuh-siem-complete-guide/tree/main/06-Custom%20Rules)** — Write your own detection rules to catch specific activity on this machine
+- **[07 — MITRE ATT&CK](https://github.com/yogesh1025/wazuh-siem-complete-guide/tree/main/07-MITRE%20ATTCK)** — Understand the ATT&CK tactics already appearing in your agent dashboard
 
 ---
 
-*Wazuh SIEM Complete Guide | Section 04 — Agent Deployment | Windows*
+*Wazuh SIEM Complete Guide | Section 04 — Agent Deployment | WindowsVM*
